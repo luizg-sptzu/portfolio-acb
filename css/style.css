@@ -74,7 +74,7 @@ hr {
 }
 
 .image img {
-    border-radius: 50%;
+    border-radius: 25%;
     object-fit: cover;
 }
 
@@ -88,6 +88,7 @@ hr {
 
 .text h2 {
     text-align: center;
+    padding-bottom: 0.5em;
 }
 
 .example {
@@ -104,7 +105,7 @@ hr {
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     max-width: 49rem;
@@ -128,4 +129,23 @@ hr {
 
 .footer a:hover {
     color: lightblue;
+}
+
+@media screen and (orientation: portrait) {
+    .text h2 {
+        padding-bottom: 1em;
+    }
+    
+    .text p {
+        padding: 0 5%;
+        font-size: small;
+    }
+
+    .example {
+        overflow: scroll;
+    }
+
+    .example img {
+        width: 80%;
+    }
 }

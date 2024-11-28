@@ -19,6 +19,15 @@ p, h1, h2, h3 {
     user-select: none;
 }
 
+hr {
+    height: 0.5vh;
+    color: rgb (48, 48, 48);
+    background: rgb(48, 48, 48);
+    font-size: 0;
+    border-radius: 50px;
+    border: 0;
+}
+
 .greeting {
     width: 100%;
     max-width: 49rem;
@@ -79,6 +88,19 @@ p, h1, h2, h3 {
 
 .text h2 {
     text-align: center;
+}
+
+.example {
+    text-align: center;
+    padding: 2em;
+    padding-bottom: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.example img {
+    width: 25%;
 }
 
 .footer {

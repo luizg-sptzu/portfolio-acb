@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0f0f0f;
+    color: white;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p, h1, h2, h3 {
+    cursor: default;
+    user-select: none;
+}
+
+.greeting {
+    width: 100%;
+    max-width: 49rem;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+}
+
+.greeting h1 {
+    background-color: rgb(48, 48, 48);
+}
+
+.main-container {
+    width: 100%;
+    max-width: 50rem;
+    padding: 0.5em;
+    padding-top: 0;
+}
+
+.header {
+    background-color: rgb(48, 48, 48);
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+
+.header a {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.header a:hover {
+    font-weight: bold;
+}
+
+.image {
+    text-align: center;
+    padding: 2em;
+    padding-bottom: 0.5em;
+}
+
+.image img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text {
+    padding: 2em 0;
+}
+
+.text p {
+    text-align: justify;
+}
+
+.text h2 {
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 49rem;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    border-radius: 50px 50px 0 0;
+}
+
+.footer p {
+    background-color: rgb(48, 48, 48);
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer a {
+    background-color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: lightblue;
+}
